@@ -1,3 +1,5 @@
+This is a fork of binhex/arch-qbittrrentvpn that includes additional ovpn file support.
+
 **Application**
 
 [qBittorrent](https://www.qbittorrent.org/)  
@@ -41,7 +43,7 @@ docker run -d \
     -e UMASK=<umask for created files> \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
-    binhex/arch-qbittorrentvpn
+    mtalexan/arch-qbittorrentvpn
 ```
 &nbsp;
 Please replace all user variables in the above command defined by <> with the correct values.
@@ -83,7 +85,7 @@ docker run -d \
     -e UMASK=000 \
     -e PUID=0 \
     -e PGID=0 \
-    binhex/arch-qbittorrentvpn
+    mtalexan/arch-qbittorrentvpn
 ```
 &nbsp;
 **AirVPN provider**
@@ -128,7 +130,7 @@ docker run -d \
     -e UMASK=000 \
     -e PUID=0 \
     -e PGID=0 \
-    binhex/arch-qbittorrentvpn
+    mtalexan/arch-qbittorrentvpn
 ```
 &nbsp;
 **Notes**
@@ -159,7 +161,7 @@ Due to issues with CSRF and port mapping, should you require to alter the port f
 
 For example, to set the port to 8090 you need to set -p 8090:8090 and -e WEBUI_PORT=8090
 ___
-If you appreciate my work, then please consider buying me a beer  :D
+If you appreciate the work of binhex, then please consider buying him a beer  :D
 
 [![PayPal donation](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MM5E27UX6AUU4)
 
