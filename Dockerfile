@@ -1,5 +1,5 @@
-FROM binhex/arch-int-openvpn:latest
-MAINTAINER binhex
+FROM mtalexan/arch-int-openvpn:latest
+MAINTAINER mtalexan
 
 # additional files
 ##################
